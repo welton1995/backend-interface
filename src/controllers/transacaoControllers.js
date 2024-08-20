@@ -47,7 +47,7 @@ const transacaoControllers = {
 
       const transacaoAtualizada = await Transacao.findByIdAndUpdate(id, { tipo, categoria, observacao, valor, data }, { new: true });
 
-      res.status(200).send({ transacaoAtualizada });
+      res.status(200).json(`Transação atualizada com sucesso!`);
     } catch (error) {
       return console.log(error);
     }
