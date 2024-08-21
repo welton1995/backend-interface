@@ -7,7 +7,7 @@ const transacaoControllers = {
 
       const transacao = await Transacao.create({ tipo, categoria, observacao, valor, data });
 
-      res.status(201).send({ transacao });
+      res.status(201).json(`Transação criada com sucesso!`);
     } catch (error) {
       return console.log(error);
     }
