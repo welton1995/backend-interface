@@ -715,9 +715,6 @@ async despesasOutrosMes(req, res) {
     res.status(500).json({ erro: "Erro ao somar receitas por mês" });
   }
 },
-
-
-
 }
 
 module.exports = transacaoControllers;
