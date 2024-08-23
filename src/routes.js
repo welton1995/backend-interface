@@ -39,7 +39,7 @@ routes.post('/entradas/:id', entradasControllers.create); // Cadastrar entradas
 // routes.put('/entradas/:id', entradasControllers.update); // Editar entradas
 // routes.delete('/entradas/:id', entradasControllers.delete); // Excluir entradas
 
-// Entradas
+// Saidas
 // routes.get('/saidas', saidasControllers.read); // Listar saidas
 routes.post('/saidas/:id', saidasControllers.create); // Cadastrar saidas
 // routes.put('/saidas/:id', saidasControllers.update); // Editar saidas
